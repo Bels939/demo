@@ -1,0 +1,1 @@
+{"context": {"lang": "en_US", "tz": "Europe/Kyiv", "uid": 2}, "db": "test17", "debug": "1", "login": "admin", "uid": 2, "session_token": "e99a27ca08852d92977e4746a58a91af41b076f6ff369e55cb464a22fe13b832", "_trace": [{"platform": "linux", "browser": "firefox", "ip_address": "127.0.0.1", "first_activity": 1760900077, "last_activity": 1760953279}]}

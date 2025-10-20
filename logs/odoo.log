@@ -1,0 +1,43 @@
+2025-10-19 18:32:01,140 29122 INFO ? odoo: Odoo version 18.0 
+2025-10-19 18:32:01,140 29122 INFO ? odoo: Using configuration file at /home/user/newproject/conf/odoo.conf 
+2025-10-19 18:32:01,140 29122 INFO ? odoo: addons paths: ['/home/user/newproject/odoo/odoo/addons', '/home/user/newproject/data/addons/18.0', '/home/user/newproject/odoo/addons', '/home/user/newproject/custom_addons'] 
+2025-10-19 18:32:01,141 29122 INFO ? odoo: database: odoo@localhost:default 
+2025-10-19 18:32:01,329 29122 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2025-10-19 18:32:01,402 29122 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2025-10-19 18:32:01,767 29122 INFO ? odoo.service.server: HTTP service (werkzeug) running on Ubuntu.myguest.virtualbox.org:8069 
+2025-10-19 18:32:22,410 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:22] "GET / HTTP/1.1" 303 - 1 0.018 0.055
+2025-10-19 18:32:22,491 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:22] "GET /odoo HTTP/1.1" 303 - 2 0.004 0.063
+2025-10-19 18:32:23,482 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/database/selector HTTP/1.1" 200 - 2 0.003 0.983
+2025-10-19 18:32:23,751 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.003 0.122
+2025-10-19 18:32:23,772 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.003 0.137
+2025-10-19 18:32:23,789 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.002 0.146
+2025-10-19 18:32:23,791 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.006 0.146
+2025-10-19 18:32:23,791 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.003 0.152
+2025-10-19 18:32:23,835 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 1 0.026 0.162
+2025-10-19 18:32:23,890 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.007 0.090
+2025-10-19 18:32:23,895 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 1 0.002 0.097
+2025-10-19 18:32:23,914 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 1 0.008 0.104
+2025-10-19 18:32:23,917 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 1 0.003 0.109
+2025-10-19 18:32:23,925 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 1 0.010 0.109
+2025-10-19 18:32:23,958 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 1 0.011 0.109
+2025-10-19 18:32:23,977 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.003 0.072
+2025-10-19 18:32:23,981 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.002 0.075
+2025-10-19 18:32:23,983 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:23] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.005 0.053
+2025-10-19 18:32:24,029 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:24] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.003 0.035
+2025-10-19 18:32:24,073 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:24] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.002 0.018
+2025-10-19 18:32:24,159 29122 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:32:24] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.007 0.027
+2025-10-19 18:45:55,113 29122 INFO ? odoo.service.server: Initiating shutdown 
+2025-10-19 18:45:55,224 29122 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-10-19 18:45:55,715 29122 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-10-19 18:46:47,033 30241 INFO ? odoo: Odoo version 18.0 
+2025-10-19 18:46:47,033 30241 INFO ? odoo: Using configuration file at /home/user/newproject/conf/odoo.conf 
+2025-10-19 18:46:47,033 30241 INFO ? odoo: addons paths: ['/home/user/newproject/odoo/odoo/addons', '/home/user/newproject/odoo/addons', '/home/user/newproject/data/addons/18.0', '/home/user/newproject/custom_addons'] 
+2025-10-19 18:46:47,034 30241 INFO ? odoo: database: odoo@localhost:default 
+2025-10-19 18:46:47,175 30241 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2025-10-19 18:46:47,260 30241 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2025-10-19 18:46:47,692 30241 INFO ? odoo.service.server: HTTP service (werkzeug) running on Ubuntu.myguest.virtualbox.org:8069 
+2025-10-19 18:47:22,337 30241 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:47:22] "GET /web/database/selector HTTP/1.1" 200 - 2 0.046 1.001
+2025-10-19 18:47:22,739 30241 INFO ? werkzeug: 127.0.0.1 - - [19/Oct/2025 18:47:22] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.004 0.048
+2025-10-19 18:50:16,575 30241 INFO ? odoo.service.server: Initiating shutdown 
+2025-10-19 18:50:16,576 30241 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-10-19 18:50:16,903 30241 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  

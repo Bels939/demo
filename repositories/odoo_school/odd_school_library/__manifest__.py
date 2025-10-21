@@ -1,0 +1,16 @@
+{
+    'name': 'Odoo school library',
+    'version': '18.0.1.0.0',
+    'summary': '',
+    'author': 'Odoo School',
+    'website': 'https://odoo.school/',
+    'category': 'Customizations',
+    'license': 'OPL-1',
+    'depends': ['base',],
+    'external_dependencies': {'python': [],},
+    'data': [],
+    'demo': [],
+    'installable': True,
+    'auto_install': False,
+    'images': ['static/description/icon.png'],
+}
